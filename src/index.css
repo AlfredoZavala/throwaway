@@ -1,0 +1,62 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  color: hotpink;
+
+}
+
+:root {
+  --body-background: #101010;
+  --text-color: #4AF626;
+
+}
+
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: var(--body-background);
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Container */
+
+.container {
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* Editor */
+
+#editor {
+  border: 1px solid lightseagreen;
+  background: black;
+
+  height: 70vh;
+  width: 500px;
+
+}
+
+
+/* Previewer */
+
+#preview {
+  border: 1px solid lightcoral;
+  background: black;
+
+  height: 70vh;
+  width: 500px;
+
+}
+
